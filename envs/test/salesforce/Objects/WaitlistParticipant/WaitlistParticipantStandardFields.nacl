@@ -1,0 +1,30 @@
+type salesforce.WaitlistParticipant {
+  salesforce.Unknown Description {
+    apiName = "WaitlistParticipant.Description"
+    _hidden_value = true
+  }
+  salesforce.Lookup ParticipantId {
+    apiName = "WaitlistParticipant.ParticipantId"
+    _hidden_value = true
+  }
+  salesforce.Lookup ServiceAppointmentId {
+    apiName = "WaitlistParticipant.ServiceAppointmentId"
+    _hidden_value = true
+  }
+  salesforce.Lookup ServiceResourceId {
+    apiName = "WaitlistParticipant.ServiceResourceId"
+    _hidden_value = true
+  }
+  salesforce.Unknown Status {
+    apiName = "WaitlistParticipant.Status"
+    _hidden_value = true
+  }
+  salesforce.MasterDetail WaitlistId {
+    apiName = "WaitlistParticipant.WaitlistId"
+    _hidden_value = true
+  }
+  salesforce.Lookup WorkTypeId {
+    apiName = "WaitlistParticipant.WorkTypeId"
+    _hidden_value = true
+  }
+}

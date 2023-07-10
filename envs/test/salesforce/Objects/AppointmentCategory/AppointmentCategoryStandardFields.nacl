@@ -1,0 +1,14 @@
+type salesforce.AppointmentCategory {
+  salesforce.Unknown IsDropIn {
+    apiName = "AppointmentCategory.IsDropIn"
+    _hidden_value = true
+  }
+  salesforce.Unknown IsScheduled {
+    apiName = "AppointmentCategory.IsScheduled"
+    _hidden_value = true
+  }
+  salesforce.Unknown Name {
+    apiName = "AppointmentCategory.Name"
+    _hidden_value = true
+  }
+}

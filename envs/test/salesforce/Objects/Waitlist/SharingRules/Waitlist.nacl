@@ -1,0 +1,6 @@
+salesforce.SharingRules Waitlist {
+  fullName = "Waitlist"
+  _parent = [
+    salesforce.Waitlist,
+  ]
+}

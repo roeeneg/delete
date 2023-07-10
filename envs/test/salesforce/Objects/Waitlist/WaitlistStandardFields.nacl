@@ -1,0 +1,18 @@
+type salesforce.Waitlist {
+  salesforce.Unknown Description {
+    apiName = "Waitlist.Description"
+    _hidden_value = true
+  }
+  salesforce.Unknown IsActive {
+    apiName = "Waitlist.IsActive"
+    _hidden_value = true
+  }
+  salesforce.Unknown Name {
+    apiName = "Waitlist.Name"
+    _hidden_value = true
+  }
+  salesforce.Lookup ServiceTerritoryId {
+    apiName = "Waitlist.ServiceTerritoryId"
+    _hidden_value = true
+  }
+}

@@ -1,0 +1,18 @@
+type salesforce.WaitlistServiceResource {
+  salesforce.Unknown AccessLevel {
+    apiName = "WaitlistServiceResource.AccessLevel"
+    _hidden_value = true
+  }
+  salesforce.Unknown IsAvailable {
+    apiName = "WaitlistServiceResource.IsAvailable"
+    _hidden_value = true
+  }
+  salesforce.MasterDetail ServiceResourceId {
+    apiName = "WaitlistServiceResource.ServiceResourceId"
+    _hidden_value = true
+  }
+  salesforce.MasterDetail WaitlistId {
+    apiName = "WaitlistServiceResource.WaitlistId"
+    _hidden_value = true
+  }
+}

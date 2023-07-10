@@ -1,0 +1,10 @@
+type salesforce.WaitlistWorkType {
+  salesforce.MasterDetail WaitlistId {
+    apiName = "WaitlistWorkType.WaitlistId"
+    _hidden_value = true
+  }
+  salesforce.MasterDetail WorkTypeId {
+    apiName = "WaitlistWorkType.WorkTypeId"
+    _hidden_value = true
+  }
+}

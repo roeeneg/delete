@@ -1,0 +1,9 @@
+salesforce.Role ROEE {
+  fullName = "ROEE"
+  caseAccessLevel = "Edit"
+  contactAccessLevel = "Edit"
+  mayForecastManagerShare = false
+  name = "ROEE"
+  opportunityAccessLevel = "Edit"
+  parentRole = salesforce.Role.instance.CEO
+}
